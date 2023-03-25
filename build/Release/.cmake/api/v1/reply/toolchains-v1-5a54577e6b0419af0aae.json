@@ -1,0 +1,93 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/bin/arm-none-eabi-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include/newlib-nano",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/lib/gcc/arm-none-eabi/8.3.1/include",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/lib/gcc/arm-none-eabi/8.3.1/include-fixed",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/bin/arm-none-eabi-gcc.exe",
+				"version" : "8.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include/newlib-nano",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include/c++/8.3.1",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include/c++/8.3.1/arm-none-eabi",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include/c++/8.3.1/backward",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/lib/gcc/arm-none-eabi/8.3.1/include",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/lib/gcc/arm-none-eabi/8.3.1/include-fixed",
+						"C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/MMB_Kuba/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/8.3.1-1.3.1/.content/bin/arm-none-eabi-g++.exe",
+				"version" : "8.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
